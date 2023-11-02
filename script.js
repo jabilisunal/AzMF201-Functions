@@ -1,43 +1,70 @@
-// ? Task -1
-// class Hesablama{
-//     constructor(initialValue){
-//         this.value=initialValue
-//     }
-//     plus(num){
-//         this.value+=num;
-//         return this;
-//     }
-//     divide(num){
-//         this.value/=num;
-//         return this;
-//     }
-//     minus(num){
-//         this.value-=num;
-//         return this;
-//     }
-//     multiply(num){
-//         this.value*=num;
-//         return this;
-//     }
+// let button = document.querySelector(".btn");
+// // console.log(button)
+// button.addEventListener("click",function(){
+//     // alert(button.textContent);
+//     const div = document.createElement("div");
+//     document.body.append(div);
+//     div.textContent=button.textContent;
+// })
+// let body = document.querySelector("body");
+// body.style.display="flex";
+// body.style.gap="20px"
+// body.style.border="1px solid black"
+// body.style.width="300px";
+// body.style.flexWrap="wrap"
+// button.style.backgroundColor="red";
+// button.style.color="white"
+
+// ! Task -4 
+// const listElement =document.querySelectorAll("ul li");
+// for (let i = 0; i < listElement.length; i++) {
+//     listElement[i].addEventListener("click",function(){
+//         console.log(listElement[i].textContent)
+//     })
+    
+// }
+// console.log(ul)
+// let color = document.getElementById("color");
+// let width = document.getElementById("width");
+// let btn = document.getElementById("change-btn");
+// let figure = document.querySelector(".figure");
+
+// btn.addEventListener("click", function () {
+//   if (color.value == "" || width.value == "") {
+//     return;
+//   }
+//   figure.style.backgroundColor = color.value;
+//   figure.style.width = width.value + "px";
+// });
+
+//  !  Task -5
+
+// const listElement = document.querySelectorAll("ul li");
+// for (let i = 0; i < listElement.length; i++) {
+//     listElement[i].addEventListener("click",function(){
+//         // console.log(this)
+//         // console.log(listElement[i])
+//         // this.remove;
+//     })
+    
 // }
 
-// let answer = new Hesablama(50).plus(6).minus(30).multiply(3).divide(2);
-// let checkanswer = new Hesablama(20).divide(2).divide(5);
+// ? Task -6
 
-// console.log(checkanswer.value);
-// ? Task -1
+let inputColor = document.getElementById("color");
+let inputWidth= document.getElementById("width");
+let button = document.querySelector(".btn");
+let figure = document.querySelector(".figure");
 
+button.addEventListener("click",function(){
 
-function myFunc(arr,cb) {
-    for (let i = 0; i < arr.length; i++) {
-        arr[i] = cb(arr[i],i)
+    if(inputColor.value=="" || inputWidth.value==""){
+        alert("inputlari doldurun.")
     }
-    return arr
-}
-const arr =[1,2,3,4]
-// let res = myFunc(arr,(x)=>x*2)
-// console.log(res);
-const arr1 = myFunc(arr,(x)=>{return x-5})
-console.log("arr1",arr1);
-const arr2 = myFunc(arr,(x,i)=>{return i*5})
-console.log("arr2",arr2);
+    // figure.style.backgroundColor="red"
+    figure.style.backgroundColor=inputColor.value;
+    figure.style.width=inputWidth.value + "px";
+})
+
+
+

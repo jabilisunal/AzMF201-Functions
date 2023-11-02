@@ -1,0 +1,70 @@
+
+
+
+
+
+1.html-de button yaradirsiz ona click edende alert cixartsin.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.html-de button yaradirsiz buttonun icerisindeyi yazini alert cixartsin.
+
+
+
+
+
+
+
+
+
+
+
+3.html-de button yaradirsiz onun click edende icindeyi yazini body-e element yaradib ora atsin.	
+
+
+
+
+
+
+
+
+
+4.ul elementi icerisinde 3-4 dene li-lerden ibaret seherler olur,hansi sehere click ediremse onun adin console.log-a cixarsin.
+5.ul elementi icerisinde 3-4 dene li-lerden ibaret seher adi olur, hansina click ediremse background toggle olur.
+6.ul elementi icerisinde 3-4 dene li-lerden ibaret seher adi olur, hansina click ediremse on siyahidan silsin.
+
+
+Homework
+
+1.Html ici bos olacak.Modal yaradacaqsiz.Ve button olacak.Butona click olundugunda Modal acilsin.Modal`da cancel buttonu olacaq.Cancel click olunanda Modal baglanacaq
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Html-de bir container classiniz olur,JS ile bir div yaradirsiz,divin icinde bir yazida olur,ona class verirsiz ve css ozellikleri daxil edirsiz. rengli bir daire yaradirsiz.
+
+
+2.HTML -də List olacağ içində adlar olacaq js tərəfdən o adları götürüb içində a hərifi keçən adları götürüb başqa bir  list yaradib onun içinə əlavə etmək lazımdır.
